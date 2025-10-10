@@ -1,0 +1,37 @@
+
+
+✅ Tech Round 1: Basic HTML, JavaScript, TypeScript, React
+
+1. New feature introduced in HTML5
+2. Flex vs Grid
+3. What is hoisting in JavaScript? How does it work for var, let, and const?
+4. Explain closure in JavaScript with an example.
+5. What is the difference between == and ===?
+6. length vs size in JavaScript?
+7. What are arrow functions and how do they differ from regular functions?
+8. What are Promises and how do they work?
+9. What does async / await do under the hood?
+10. What is the event loop? Explain how JavaScript handles async code.
+11. What are the main data types in TypeScript?
+12. What is type inference in TypeScript?
+13. How do you create and use interfaces in TypeScript?
+14. What is the difference between interface and type in TypeScript?
+15. How can you define optional and readonly properties in interfaces?
+16. Rotates an array to the right by n positions.
+17. Functional vs class components
+18. Explain useEffect with cleanup
+19. useCallback vs useMemo
+
+✅ Tech Round 2: 
+
+1. Implement a debounce function in JavaScript.
+2. Write a custom Promise.all() implementation.
+3. What is the difference between microtasks and macrotasks?
+4. What are generators and how are they different from async functions?
+5. What is currying? Write a curried function.
+6. How would you implement a retry mechanism for an API call?
+7. What happens when you type a URL in the browser and press enter?
+8. What is CI/CD? Explain your experience using it.
+9. Explain CORS and how to resolve related issues.
+10. How will you migrate Angular App to React App. What will be your approach?
+11. You’re a team lead. A fresher on your team is underperforming, and the client escalates. How will you handle it?
