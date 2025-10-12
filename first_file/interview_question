@@ -35,3 +35,95 @@
 9. Explain CORS and how to resolve related issues.
 10. How will you migrate Angular App to React App. What will be your approach?
 11. You’re a team lead. A fresher on your team is underperforming, and the client escalates. How will you handle it?
+
+
+
+Tech Stack: MERN Stack
+Hey everyone! A follower with 4+ years of experience just shared their Deloitte interview questions to help others prepare with confidence.
+
+Overall Process:
+1. Technical Round 1
+2. Technical Round 2
+3. Managerial Round (scenario and situation related question)
+4. HR Round – Salary, Location
+
+Technical Round 1:
+
+1. What’s the difference between let, const, and var in JavaScript?
+2. Explain closures with a use case.
+3. Write a function to flatten a nested array in JavaScript.
+4. Reverse a string without using built-in methods.
+5. What is event bubbling and how do you stop it?
+6. Explain JavaScript promises and async/await.
+7. Explain debouncing and throttling.
+8. What is hoisting in JavaScript?
+9. Explain prototypal inheritance in JavaScript.
+10. Create a simple REST API with Express.js.
+11. How does MongoDB store data?
+12. Describe CORS and how to handle it in Node.js.
+13. How does React’s Virtual DOM improve performance?
+14. What is the use of useState and useEffect?
+
+Scenario-Based Questions (Additions):
+15. A user submits a form but the data isn't appearing in the database. Walk me through how you would debug this from the frontend to the backend.
+
+16. You’re tasked with building a user registration page in React. How would you handle form validation, error handling, and data submission to a Node.js server?
+
+ Technical Round 2:
+
+1. Design a scalable blogging platform using MERN.
+2. How do you handle authentication in a MERN app?
+3. Explain the Redux data flow.
+4. What are React Hooks? List custom hooks you’ve written.
+5. How do you prevent unnecessary re-renders in React?
+6. How would you implement role-based access control (RBAC)?
+7. Design a real-time chat application.
+8. How do you manage large form states in React?
+9. How do you paginate large datasets in MongoDB?
+10. What are indexes in MongoDB, and how do they affect performance?
+11. Explain middleware in Express.js with examples.
+12. Compare SQL vs NoSQL – pros/cons for large-scale apps.
+13. What is load balancing, and how would you implement it?
+14. How would you monitor and log your Node.js application in production?
+
+Scenario-Based Questions
+15. You’ve been asked to implement role-based access where Admin can edit/delete users, and normal users can only view. How would you secure this across both frontend and backend?
+
+𝗥𝗲𝗮𝗰𝘁 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗯𝘆 𝗟𝗲𝘃𝗲𝗹
+
+🟢 𝗕𝗮𝘀𝗶𝗰:
+ 1. What is React and how does it work?
+ 2. Functional vs Class components
+ 3. Props vs State
+ 4. JSX and its purpose
+ 5. Virtual DOM
+ 6. Event handling
+ 7. Conditional rendering
+ 8. Key prop in lists
+
+🟡 Intermediate:
+ 1. useState & useEffect
+ 2. Controlled vs Uncontrolled components
+ 3. React Router & client-side routing
+ 4. Context API vs Redux
+ 5. Prop drilling & solutions
+ 6. React.memo, useMemo, useCallback
+ 7. Higher-Order Components (HOCs)
+ 8. Forms & controlled inputs
+
+🔴 Advanced:
+ 1. Re-renders & optimization
+ 2. Reconciliation & diffing algorithm
+ 3. Lazy loading with React.lazy & Suspense
+ 4. Error boundaries
+ 5. Auth & protected routes
+ 6. Render props vs HOCs
+ 7. SSR vs CSR
+ 8. React Fiber & Concurrent Mode
+ 9. Testing tools (Jest, RTL, etc.)
+
+Master these concepts and you’re ready to ace any React interview.
+
+
+
+https://www.linkedin.com/posts/sakshiku945_frontend-development-roadmap-activity-7380806530767597568-Kk1q?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADvl-ZMBMZIsoUtPeb3xDUpzOewwyQ-0CiU&utm_campaign=whatsapp
