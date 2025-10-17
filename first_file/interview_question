@@ -180,4 +180,139 @@ How new & instanceof really work
 
 
 
+ Day 1
+
+Difference between == and ===
+Explain var, let, const and temporal dead zone
+What is hoisting?
+Explain closures with examples
+What is the event loop? microtasks vs macrotasks
+How does this binding work?
+What are prototypes and prototypal inheritance?
+What are higher-order functions?
+Explain immutability and why it matters
+What is debouncing vs throttling?
+Difference between null and undefined
+Explain call, bind, and apply
+What are pure functions and side effects?
+Explain shallow vs deep copy
+What is type coercion in JS?
+What are truthy and falsy values?
+What is pass-by-value vs pass-by-reference?
+What is IIFE and why is it used?
+What are arrow functions and lexical this?
+What is event bubbling and capturing?
+
+
+Day 2
+
+Explain Promise.all, Promise.any, and Promise.race.
+What is async/await and how does it differ from promises?
+What are generators and iterators?
+How do modules (ESM vs CommonJS) differ?
+Explain tree-shaking and dead code elimination.
+What is a polyfill and when is it needed?
+How does the event loop differ in Node vs Browser?
+Explain Web Workers and Transferable Objects.
+What is the Reflect API and why is it used?
+What are Proxies and real-world use cases?
+How does structured cloning differ from JSON cloning?
+What are Tagged Template Literals?
+What are WeakMaps and WeakSets used for?
+Explain BigInt and its limitations.
+What’s the difference between microtask queue and render queue?
+How does requestIdleCallback differ from requestAnimationFrame?
+What is a SharedArrayBuffer and where is it used?
+How do dynamic imports (import()) work?
+Explain how async generators differ from regular ones.
+What are CSP nonces and how do they affect script loading?
+
+
+Continuing my series on interview experiences, where I share the lessons, challenges, and takeaways from different stages of my journey.
+
+📌 Process
+
+👉 Recruiter reached out via Naukri
+👉 4 Tech Rounds →
+1️⃣ DSA (arrays, strings, complexity)
+2️⃣ Core JavaScript Fundamentals
+3️⃣ Web Fundamentals (browser + coding)
+4️⃣ Managerial
+
+🎯 Round 1 – DSA
+
+👉 Classic problems on arrays & strings (reverse, duplicates, subarrays).
+👉 Two-pointer problem under time pressure.
+👉 Detailed time & space complexity discussion.
+
+💡 Example (Two-pointer → Remove duplicates in sorted array):
+
+function removeDuplicates(nums) {
+ let i = 0;
+ for (let j = 1; j < nums.length; j++) {
+ if (nums[j] !== nums[i]) {
+ i++;
+ nums[i] = nums[j];
+ }
+ }
+ return i + 1;
+}
+console.log(removeDuplicates([1,1,2,3,3,4])); // 4
+
+🎯 Round 2 – Core JavaScript Fundamentals
+
+👉 this keyword in different contexts.
+👉 Call, Bind, Apply (and polyfills).
+👉 Closures example:
+
+function counter() {
+ let count = 0;
+ return () => ++count;
+}
+const c = counter();
+console.log(c()); // 1
+console.log(c()); // 2
+
+
+👉 Event loop (microtasks vs macrotasks).
+👉 Deep vs shallow copy.
+👉 PubSub coding problem.
+
+🎯 Round 3 – Web Fundamentals
+
+👉 How browsers render pages (Critical Rendering Path).
+👉 WebSockets vs HTTP.
+👉 Machine coding → custom hook with timer.
+👉 CSS positioning (absolute vs relative vs fixed vs sticky).
+👉 Event delegation:
+
+document.getElementById("list").addEventListener("click", e => {
+ if(e.target.tagName === "LI") console.log("Clicked:", e.target.textContent);
+});
+
+
+👉 HTTP vs HTTPS (TLS basics).
+👉 Browser storage: localStorage, sessionStorage, cookies.
+👉 Performance optimization scenarios.
+
+🎯 Round 4 – Techno Managerial
+
+👉 Walkthrough of past projects & design decisions.
+👉 Handling tight UI deadlines.
+👉 Debugging complex frontend issues.
+👉 What motivates me as a frontend engineer.
+
+💡 Key Takeaways
+
+✅ Interviews test what you know + how you explain.
+✅ Strong fundamentals matter, but articulation is equally critical.
+✅ Early rejections aren’t failures — they’re stepping stones that sharpen both technical and communication skills.
+
+❓ Have you ever felt you knew the concept well but couldn’t show it effectively during an interview?
+
+👉 Missed earlier posts? Check the comments.
+👉 Stay tuned — more interview experiences coming soon!
+
+
+
 https://www.linkedin.com/posts/sakshiku945_frontend-development-roadmap-activity-7380806530767597568-Kk1q?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADvl-ZMBMZIsoUtPeb3xDUpzOewwyQ-0CiU&utm_campaign=whatsapp
